@@ -4,7 +4,7 @@ public class ex14 {
 		// 2021.07.09. 프로그래밍 -14- 161p 이론문제 1번
 		
 		int sum = 0;
-		
+		System.out.print("for 결과>> ");
 		for(int i=1; i<=10; i++) {
 			sum += i;
 			System.out.print(i);
@@ -16,6 +16,8 @@ public class ex14 {
 				System.out.print(sum);
 			}
 		}
+		
+		
 	}
 
 }
