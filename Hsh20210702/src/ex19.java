@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class ex19 {
+
+	public static void main(String[] args) {
+		// 2021.07.13. 프로그래밍 -19- break 문
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("exit을 입력을 종료합니다.");
+		while(true) {
+			System.out.print(">>");
+			String text = scanner.nextLine();
+			
+			if(text.equals("exit"))
+				break;
+		}
+		
+		System.out.println("종료합니다...");
+		scanner.close();
+		
+		
+		
+	}
+}
+		
